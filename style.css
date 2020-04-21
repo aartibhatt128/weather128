@@ -1,0 +1,96 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Nunito",sans-serif;
+  background: #f8f8f8;
+  background-image: url(webpic.jpg);
+  background-size: cover;
+
+  
+}
+.button1
+{
+  position: absolute;
+  top:10px;
+  right:10px;
+  width:150px;
+  height:60px;
+  font size:25px;
+  text-align: center;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  padding: 15px 32px;
+
+}
+.button1:hover
+{
+  background-color: light blue;
+        color: white;
+}
+
+.input{
+  text-align: center;
+  margin: 100px auto;
+}
+
+  .button
+    {
+      width: 250px;
+      height: 60px;
+      text-align: center;
+      font-size: 25px;
+      padding: 15px 32px;
+      background-color: white;
+      border-radius: 12px;
+      transition-duration: 0.4s;
+    }
+    .button:hover
+    {
+      background-color: #555555;
+        color: blue;
+    }
+
+.input input[type="text"]{
+  width: 600px;
+  height: 55px;
+  padding: 5px 10px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 1px;
+  font-family: "Nunito",sans-serif;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.card{
+  width: 50%;
+  
+  height: 65vh;
+  margin: 50px auto;
+  
+  border-width: thick;
+  border-color: black;
+}
+
+
+.close{
+  float: right;
+  margin-top: -2px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.card h1{
+  padding: 15px 0;
+  text-align: center;
+}
+
+.card p{
+  text-align: center;
+  margin:40px 0;
+  font-size:25px;
+}
